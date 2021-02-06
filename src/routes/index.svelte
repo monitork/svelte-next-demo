@@ -1,10 +1,7 @@
 <script>
-	import Counter from '$components/Counter.svelte'; 
-</script> 
-<svelte:head>
-	<!-- elements go here -->
-	<title>Home page</title>
-</svelte:head>
+	import Counter from '$components/Counter.svelte';
+</script>
+
 <main>
 	<h1>Hello world!</h1>
 
@@ -12,7 +9,7 @@
 	<p>Visit the <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte apps.</p>
 </main>
 
-<style lang="less">
+<style lang="scss">
 	:root {
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	}
